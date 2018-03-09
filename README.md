@@ -14,10 +14,10 @@ This Twitter bot uses Tweepy, a Python module to deal with the Twitter API.
 >Added functioanlity to use random tweet for reply from a text file.
  Now, you can define the tweets in "tweets.txt" file and start the bot.
  
-##Todo
+## Todo
 > Add a GUI for simplicity.....
 
-#Running:
+## Running:
 
 1. pip or pip2.7 install tweepy
 2. Enter the Twitter keys in keys.py.
