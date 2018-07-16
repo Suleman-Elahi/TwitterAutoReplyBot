@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-import tweepy
-import random
+import tweepy, random
 #from our keys module (keys.py), import the keys dictionary
 from keys import keys
 
