@@ -18,5 +18,5 @@ A lot of updates are coming, cheers !!!!
 
 1. pip or pip2.7 install tweepy
 2. Enter the Twitter keys in keys.py.
-3. Customize the search query, hashtag, and number of tweets to fetch at line 16 of "bot.py".
+3. Customize the search query, hashtag, and number of tweets to fetch at line 15 of "bot.py".
 4. Run as:  python bot.py or py- 2 bot.py
