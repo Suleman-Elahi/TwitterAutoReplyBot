@@ -4,7 +4,9 @@ This is a tiny Python script that replies to specified number of tweets containi
 This Twitter bot uses Tweepy, a Python module to deal with the Twitter API.
 
 Successfully tested and ran with Python27, running on Windows 10, build 15063.726
- 
+
+Run as a cron job or via Task Scheduler to automatically reply to certain tweets of your interest.
+
 A lot of updates are coming, cheers !!!!
 
 ## Update 1:
