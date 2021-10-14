@@ -3,13 +3,13 @@ This is a tiny Python script that replies to specified number of tweets containi
 
 This Twitter bot uses Tweepy, a Python module to deal with the Twitter API.
 
-Successfully tested and ran with Python27, running on Windows 10, build 15063.726
+Successfully tested and ran with Python38, running on Windows 11.
 
 Run as a cron job or via Task Scheduler to automatically reply to certain tweets of your interest.
 
 A lot of updates are coming, cheers !!!!
 
-## Update :
+## Update 2021 :
 >Added functioanlity to use random tweet for reply from a text file.
  Now, you can define the tweets in "tweets.txt" file and start the bot.
  Also prevents replyign to same tweet again and again. Works with Tweepy v4.
