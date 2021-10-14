@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import tweepy, random
 import time
-import os, pickle
+import pickle
 
 ##########################################################################################
 CONSUMER_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXX"                                              #
