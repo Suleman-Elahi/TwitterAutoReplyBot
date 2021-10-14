@@ -9,16 +9,17 @@ Run as a cron job or via Task Scheduler to automatically reply to certain tweets
 
 A lot of updates are coming, cheers !!!!
 
-## Update 1:
+## Update :
 >Added functioanlity to use random tweet for reply from a text file.
  Now, you can define the tweets in "tweets.txt" file and start the bot.
+ Also prevents replyign to same tweet again and again. Works with Tweepy v4.
  
-## Todo
+### Todo
 > Add a GUI for simplicity.....
 
 ## Running:
 
 1. `pip3 install tweepy`
-2. Enter the Twitter keys in bot.py at lines 5-8.
-3. Customize the search query, hashtag, and number of tweets to fetch at line 14 of "bot.py".
-4. Run as:  `python bot.py` or `py- 2 bot.py` or `python3 bot.py`
+2. Enter the Twitter keys in bot.py at lines 6-11.
+3. Customize the search query, hashtag, and number of tweets to fetch at line 25 of "bot.py".
+4. Run as:  `python bot.py` or `python3 bot.py`
