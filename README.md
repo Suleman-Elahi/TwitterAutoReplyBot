@@ -20,7 +20,7 @@ A lot of updates are coming, cheers !!!!
 ## Running:
 
 1. Open Terminal or Command Prompt(cmd.exe) or PowerShell. Make sure `git` is installed.
-2. `git clone https://github.com/Suleman-Elahi/TwitterAutoReplyBot $$ cd TwitterAutoReplyBot`
+2. `git clone https://github.com/Suleman-Elahi/TwitterAutoReplyBot && cd TwitterAutoReplyBot`
 3. `pip3 install tweepy`
 4. Enter the Twitter keys in `bot.py` file at lines 6-11.
 5. Customize the search query, hashtag, and number of tweets to fetch at line 25 of "bot.py".
