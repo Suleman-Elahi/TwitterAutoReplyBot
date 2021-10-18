@@ -19,7 +19,9 @@ A lot of updates are coming, cheers !!!!
 
 ## Running:
 
-1. `pip3 install tweepy`
-2. Enter the Twitter keys in bot.py at lines 6-11.
-3. Customize the search query, hashtag, and number of tweets to fetch at line 25 of "bot.py".
-4. Run as:  `python bot.py` or `python3 bot.py`
+1. Open Terminal or Command Prompt(cmd.exe) or PowerShell. Make sure `git` is installed.
+2. `git clone https://github.com/Suleman-Elahi/TwitterAutoReplyBot $$ cd TwitterAutoReplyBot`
+3. `pip3 install tweepy`
+4. Enter the Twitter keys in `bot.py` file at lines 6-11.
+5. Customize the search query, hashtag, and number of tweets to fetch at line 25 of "bot.py".
+6. Run as:  `python bot.py` or `python3 bot.py`
