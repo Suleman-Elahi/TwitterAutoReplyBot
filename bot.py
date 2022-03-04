@@ -8,6 +8,9 @@ CONSUMER_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXX"                                     
 CONSUMER_SECRET = "XXXXXXXXXXXXXXXXXXXXXXXXXX"                                           #
 ACCESS_TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXX"                                              #
 ACCESS_TOKEN_SECRET = "XXXXXXXXXXXXXXXXXXXXXXXXXX"                                       #
+HASHTAG = "#tvd"                                                                         #
+NUMBER_OF_TWEETS_TO RERPLY = 5                                                           #
+TWEETS_TYPE = "recent" #can be set to "mixed" or "popular" as well                       #
 ##########################################################################################
 
 processed_tweets = []
@@ -22,7 +25,7 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
  
-twt = api.search_tweets("#TVD",result_type="new",count=4) 
+twt = api.search_tweets(HASHTAG,result_type=TWEETS_TYPE,count=NUMBER_OF_TWEETS_TO RERPLY) 
  
 for s in twt:
    if s.id not in processed_tweets:
