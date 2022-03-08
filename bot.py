@@ -4,12 +4,12 @@ import time
 import pickle
 
 ##########################################################################################
-CONSUMER_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXX"                                              #
-CONSUMER_SECRET = "XXXXXXXXXXXXXXXXXXXXXXXXXX"                                           #
-ACCESS_TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXX"                                              #
-ACCESS_TOKEN_SECRET = "XXXXXXXXXXXXXXXXXXXXXXXXXX"                                       #
+CONSUMER_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"                           #
+CONSUMER_SECRET = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"                   #
+ACCESS_TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"                      #
+ACCESS_TOKEN_SECRET = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"                    #
 HASHTAG = "#tvd"                                                                         #
-NUMBER_OF_TWEETS_TO RERPLY = 5                                                           #
+NUMBER_OF_TWEETS_TO_RERPLY = 5                                                           #
 TWEETS_TYPE = "recent" #can be set to "mixed" or "popular" as well                       #
 ##########################################################################################
 
@@ -25,7 +25,7 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
  
-twt = api.search_tweets(HASHTAG,result_type=TWEETS_TYPE,count=NUMBER_OF_TWEETS_TO RERPLY) 
+twt = api.search_tweets(HASHTAG,result_type=TWEETS_TYPE,count=NUMBER_OF_TWEETS_TO_RERPLY) 
  
 for s in twt:
    if s.id not in processed_tweets:
