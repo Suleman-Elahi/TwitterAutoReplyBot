@@ -22,4 +22,5 @@ Run as a cron job or via Task Scheduler to automatically reply to certain tweets
 3. `pip3 install tweepy`
 4. Enter the Twitter keys in `bot.py` file at lines 7-10.
 5. Customize the hashtag, number of tweets to reply to, and tweets type to fetch at line 11-13 of "bot.py".
-6. Run as:  `python bot.py` or `python3 bot.py`
+6. Define the tweets in each line of the text file, `tweets.txt`.
+7. Run as:  `python bot.py` or `python3 bot.py`
